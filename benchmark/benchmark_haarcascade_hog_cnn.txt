@@ -1,0 +1,29 @@
+# Test face_recognition on harcascade HOG CNN benchmark (time execution,face_found) on utk_dataset
+
+
+test 1 
+/home/dimitri/Documents/code/python/facial_recognition/face_detection/dataset/utk_dataset/17_0_1_20170113175010309.jpg
+face_recognition hog time = 0.377  seconde found 1 face 
+face_recognition CNN time = 17.7 seconde found 1 face 
+harcascade time = 0.182 seconde found 1 face 
+
+test 2
+/home/dimitri/Documents/code/python/facial_recognition/face_detection/dataset/utk_dataset/28_1_0_20170116201648691.jpg
+# face_recognition hog time = 0.371  seconde found 1 face 
+# face_recognition CNN time = 15.086 seconde found 1 face 
+harcascade time = 0.281 seconde
+
+test 3 
+/home/dimitri/Documents/code/python/facial_recognition/face_detection/dataset/utk_dataset/24_0_1_20170116205610920.jpg
+
+# face_recognition hog time = 0.374  seconde found 1 face 
+# face_recognition CNN time = 15.835 seconde found 1 face 
+harcascade time = 0.171 seconde 0 face found
+
+test 4
+
+/home/dimitri/Documents/code/python/facial_recognition/face_detection/dataset/utk_dataset/23_0_0_20170116221012037.jpg
+
+# face_recognition hog time = 0.355  seconde found 1 face 
+# face_recognition CNN time = 17.313 seconde found 1 face 
+harcascade time = 0.164 seconde 0 face found
